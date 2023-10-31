@@ -1,0 +1,30 @@
+footer{
+    margin-top: 10rem;
+    div{
+        display: flex;
+        justify-content: center;
+        a{
+            padding: 20px;
+        }
+    }
+    .comunicate {
+        font-size: 2rem;
+        text-align: center;
+        color: gray;
+    }
+    .ig-icon {
+        width: 30px;
+    }
+    
+    .wa-icon {
+        width: 30px;
+    }
+    
+    .logo-fo {
+        width: 6rem;
+    }
+    .by p {
+        justify-content: center;
+        margin-top: 1rem;
+    }
+}
