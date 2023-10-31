@@ -1,0 +1,17 @@
+section .container-trabajos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+           
+        }           
+    div{
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 7rem;
+        img {
+            width: 32%;
+            margin: 5px;
+    
+        }
+    }
+
