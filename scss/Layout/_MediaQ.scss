@@ -1,0 +1,34 @@
+// media queries mobile 
+@media (max-width: 480px) {
+    main {
+        .container-section1 {
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            h2 {
+                font-size: 3rem;
+                text-align: center;
+            }
+
+        }
+
+    }
+
+    .container-servicios-index {
+        display: block;
+
+        div {
+            margin-bottom: 50px;
+        }
+    }
+}
+
+// media queries tablet 
+@media (max-width: 768px) {
+    .container-servicios-index {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+}
