@@ -124,8 +124,15 @@ footer .by p {
   margin: 5px;
 }
 
-.contac-icons a img {
-  width: 10px;
+.iconos-contactos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 45px;
+}
+.iconos-contactos .c-icon {
+  width: 20rem;
+  margin-top: 15rem;
 }
 
 /*# sourceMappingURL=style.css.map */
