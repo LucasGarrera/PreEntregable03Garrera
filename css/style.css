@@ -88,10 +88,10 @@ footer div {
   justify-content: center;
 }
 footer div a {
-  padding: 20px;
+  padding: 5px;
 }
 footer .comunicate {
-  font-size: 2rem;
+  font-size: 1rem;
   text-align: center;
   color: gray;
 }
@@ -109,20 +109,23 @@ footer .by p {
   margin-top: 1rem;
 }
 
-section .container-trabajos {
+.container-trabajos {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
-
-div {
+.container-trabajos .trabajos-uno {
   align-items: center;
   justify-content: space-between;
   margin-top: 7rem;
 }
-div img {
+.container-trabajos .trabajos-uno img {
   width: 32%;
   margin: 5px;
+}
+
+.contac-icons a img {
+  width: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
