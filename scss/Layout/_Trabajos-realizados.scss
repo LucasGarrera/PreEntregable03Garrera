@@ -1,3 +1,4 @@
+@import 'MediaQ';
 .container-trabajos {
     display: flex;
     flex-wrap: wrap;
@@ -8,6 +9,11 @@
         font-size: 3rem;
         margin-top: 12rem;
         color: dimgrey;
+        @include mobile{
+            font-size: 1.5rem;
+            text-align: center;
+        }
+          
     }
     .trabajos-uno {
         align-items: center;

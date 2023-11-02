@@ -1,8 +1,13 @@
+@import 'MediaQ';
 .iconos-contactos {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 10rem;
+    @include mobile{
+        gap: 2rem;
+    }
 
     .c-icon {
         width: 10rem;
@@ -12,16 +17,8 @@
         &:hover {
             transform: rotate(360deg)
         }
+        @include mobile{
+            width: 6rem;
+        }
     }
-}
-
-.p-contactos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 9rem;
-    margin-left: 3rem;
-    font-family: sans-serif;
-    margin-top: 1rem;
-    font-size: 1.5rem;
 }

@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Open+Sans:wght@400;600;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Open+Sans:wght@400;600;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Open+Sans:wght@400;600;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 body {
   padding: 0;
   margin: 0;
@@ -21,23 +23,30 @@ main .img-index {
   width: 100%;
   height: 36rem;
   margin-top: 5rem;
-  opacity: 80%;
+  opacity: 70%;
 }
 main h1 {
   font-size: 3.5rem;
-  font-family: "Open Sans", sans-serif;
+  font-family: principal-font;
   font-weight: 800;
   text-align: center;
   color: white;
+  -webkit-text-stroke: 0.5px black;
   position: absolute;
-  top: 70%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-shadow: 0px 5px 5px black;
+  text-shadow: 8px 8px 8px black;
 }
 @media screen and (max-width: 480px) {
   main h1 {
     font-size: 2.5rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  main h1 {
+    font-size: 3rem;
+    top: 70%;
   }
 }
 main h2 {
@@ -52,6 +61,18 @@ main h2 {
   -webkit-text-stroke: 0.1px black;
   text-shadow: 0px 5px 0px black;
 }
+@media screen and (max-width: 480px) {
+  main h2 {
+    font-size: 3rem;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  main h2 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+}
 main .container-servicios-index {
   display: grid;
   margin: 100px;
@@ -65,17 +86,36 @@ main .container-servicios-index {
     display: block;
   }
 }
+@media screen and (max-width: 768px) {
+  main .container-servicios-index {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+}
 main .container-servicios-index div {
   text-align: center;
   border-left: 1px solid gray;
   padding-left: 10px;
+}
+@media screen and (max-width: 480px) {
+  main .container-servicios-index div {
+    margin-bottom: 50px;
+  }
+}
+main .container-servicios-index div h3 {
+  font-family: principal-font;
+  font-weight: bold;
+}
+main .container-servicios-index div p {
+  font-family: principal-font;
+  font-size: 1.2rem;
 }
 main .container-boton {
   display: flex;
   text-align: center;
 }
 main .container-boton a {
-  font-family: sans-serif;
+  font-family: principal-font;
   font-weight: bold;
   text-align: center;
   background-color: rgb(236, 240, 36);
@@ -104,6 +144,7 @@ footer div a {
   padding: 5px;
 }
 footer .comunicate {
+  font-family: principal-font;
   font-size: 1rem;
   text-align: center;
   color: gray;
@@ -134,6 +175,12 @@ footer .by p {
   margin-top: 12rem;
   color: dimgrey;
 }
+@media screen and (max-width: 480px) {
+  .container-trabajos h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}
 .container-trabajos .trabajos-uno {
   align-items: center;
   justify-content: space-between;
@@ -147,9 +194,15 @@ footer .by p {
 
 .iconos-contactos {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 10rem;
+}
+@media screen and (max-width: 480px) {
+  .iconos-contactos {
+    gap: 2rem;
+  }
 }
 .iconos-contactos .c-icon {
   width: 10rem;
@@ -159,16 +212,10 @@ footer .by p {
 .iconos-contactos .c-icon:hover {
   transform: rotate(360deg);
 }
-
-.p-contactos {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 9rem;
-  margin-left: 3rem;
-  font-family: sans-serif;
-  margin-top: 1rem;
-  font-size: 1.5rem;
+@media screen and (max-width: 480px) {
+  .iconos-contactos .c-icon {
+    width: 6rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
