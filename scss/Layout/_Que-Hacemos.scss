@@ -1,0 +1,70 @@
+.container-servicios {
+   
+    .p1-servicios {
+        position: relative;
+        top: 10rem;
+        z-index: -1;
+
+        h2 {
+            
+            font-size: 3rem;
+            font-family: principal-font;
+            text-align: center;
+            font-weight: bold;
+            @include mobile{
+                font-size: 1.5rem;
+            }
+            @include tablet{
+                font-size: 2rem;
+            }
+
+
+        }
+
+        .p-qh {
+            font-size: 1.7rem;
+            font-family: principal-font;
+            margin-left: 4rem;
+            margin-right: 4rem;
+            margin-top: 2rem;
+            @include mobile{
+                font-size: 1rem;
+            }
+            @include tablet{
+                font-size: 1.2rem;
+            }
+
+        }
+    }
+
+    .h3-serv {
+        h3 {
+            margin-top: 12rem;
+            font-size: 2.5rem;
+            font-family: principal-font;
+            font-weight: bold;
+            margin-left: 4rem;
+            @include mobile{
+                font-size: 1.5rem;
+            }
+            @include tablet{
+                font-size: 2rem;
+            }
+        }
+
+        p {
+            font-size: 1.7rem;
+            font-family: principal-font;
+            margin-left: 4rem;
+            margin-right: 4rem;
+            margin-top: 2rem;
+            @include mobile{
+                font-size: 1rem;
+            }
+            @include tablet{
+                font-size: 1.2rem;
+            }
+            
+        }
+    }
+}    
