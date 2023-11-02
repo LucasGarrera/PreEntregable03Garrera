@@ -3,11 +3,17 @@
     flex-wrap: wrap;
     justify-content: space-around;
 
-
+    h2{
+        font-family: 'Roboto', sans-serif;
+        font-size: 3rem;
+        margin-top: 12rem;
+        color: dimgrey;
+    }
     .trabajos-uno {
         align-items: center;
         justify-content: space-between;
-        margin-top: 7rem;
+        margin-top: 5rem;
+        z-index: -1;
 
         img {
             width: 32%;

@@ -1,10 +1,27 @@
-.iconos-contactos{
+.iconos-contactos {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 45px;
-        .c-icon{
-        width: 20rem;
-        margin-top: 15rem;
+    gap: 10rem;
+
+    .c-icon {
+        width: 10rem;
+        margin-top: 12rem;
+        transition: all 2s;
+
+        &:hover {
+            transform: rotate(360deg)
+        }
     }
+}
+
+.p-contactos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9rem;
+    margin-left: 3rem;
+    font-family: sans-serif;
+    margin-top: 1rem;
+    font-size: 1.5rem;
 }
